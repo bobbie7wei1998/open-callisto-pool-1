@@ -6,12 +6,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/edsrzf/mmap-go"
-	"github.com/etclabscore/core-geth/common"
-	"github.com/etclabscore/core-geth/common/hexutil"
-	"github.com/etclabscore/core-geth/crypto"
-	"github.com/etclabscore/core-geth/log"
-	"github.com/yuriy0803/golang-lru/simplelru"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/ethereum/go-ethereum/common/math"
 )
 
 var Ether = math.BigPow(10, 18)
